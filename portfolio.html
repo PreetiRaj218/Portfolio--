@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=n0"/>
+        <title>My Profile-Beginner Project</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                margin:0;
+                padding:0;
+                font-family:'segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+
+            }
+            body{
+                background: linear-gradient(135deg,#6a11cb 0%,#2575fc 100%);
+                color:#fff;
+                min-height:100vh;
+                display:flex;
+                justify-content:center;
+                align-item: center;
+                padding:20px;
+
+
+            }
+            .container{
+                background:#1e1e2f;
+                max-width:350px;
+                width:100%;
+                border-radius:15px;
+                padding:25px;
+                box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+                text-align: center;
+
+            }
+            header{
+                margin-bottom:15px;
+
+            }
+            header p{
+                color:#8a8aad;
+                font-weight:600;
+                font-size: 0.9rem;
+                letter-spacing: 1.5px
+            }
+
+            profile pic{
+                width:120px;
+                height:120px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 4px solid #6a11cb;
+                margin: 0 auto 20px;
+                display: block;
+                box-shadow:0 0 15px #6a11cbaa;
+
+            }
+            .bio{
+                font-size:1rem;
+                color:#ccc;
+                line-height:1.5;
+                padding: 0 10px;
+                margin-bottom:25px;
+
+            }
+            .skill {
+                magin-bottom:25px;
+            
+
+            }
+            .skill h2{
+                font-weight: 700;
+                margin-bottom:120px
+                color: #e0e0ff;
+                letter-spacing:1.3px;
+
+            }
+             .skill-list{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap:12px;
+        
+             }
+             .skill{
+                background:#6a11cb;
+                padding: 8px 14px;
+                border-radius: 20px;
+                font-size:0.9rem;
+                font-weight: 600;
+                box-shadow: 0 3px 8px #2575fcaa;
+                transition:background-color 0.3s ease;
+                cursor: default;
+
+             }
+             .skill: hover{
+                background:#2575fc;
+
+             }
+             .contact{
+                border-top:1px solid #333;
+                padding-top:20px;
+             }
+              .contact h2{
+                font-weight: 700;
+                margin-bottom: 12px;
+                color:#e0eoff;
+                letter-spacing: 1.3px;
+              }
+
+              .contact a{
+                color:#6a11cb;
+                text decoration:none;
+                font-weight:700;
+                transition:color 0.3s ease;
+              }
+              .contact a:hower{
+                color:#2575fc;
+                text-decoration:underline;
+
+              }
+              @media( max-width:400px){
+                .container{
+                    padding:20px;
+
+                }
+                header h1{
+                    font-size:1.6rem;
+                }
+                .porfile-pic{
+                    width:100px;
+                    height:100px;
+
+                }
+                .skill{
+                    font-size: 0.85rem;
+
+                }
+
+              }
+              </style>
+              </head>
+            </body>
+            <div class="container" role="main">
+                <header>
+                    <h1> Preeti Raj</h1>
+                    <p>Web Development beginner</p>
+                </header>
+                
+                <section class="bio">
+                    <p>Hello! I'm preeti,a beginner web developer passinate about learning HTML and CSS.This is my project where I practice creating a neat personal profile page.Looking forward to building more exciting websites!</p>
+                </section>
+                <section class="skill"aria- label="skill">
+                    <h2>skill</h2>
+        
+                        <div class="skill-list">
+                            <span class="skill" tabindex="0">HTML</span>
+                            <span class="skill" tabindex="0">CSS</span>
+                            <span class="skill" tabindex="0">C lannguage</span>
+                            <span class="skill" tabindex="0">C++</span>
+                        </div>
+                    </section>
+                    <section class="contact" aria-label="Contact">
+                        <h2>Contact</h2>
+                        <p>Email:<a href="preetiraj2677@gamil.com" aria-label="send email to preeti raj">preeti.raj@example.com</a></p>
+                    </section>
+                </div>
+            </body>
+            </html>
+
+                            
+                    
